@@ -1,0 +1,137 @@
+/* Reset */
+
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/* Fuentes */
+
+.name {
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.my-name {
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.msje {
+    margin-top: -14px;
+    padding: 0;
+
+}
+
+.status {
+    font-size: 10px;
+    color: #828485;
+    margin-top: -14px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 45px
+}
+
+span {
+    font-weight: bold;
+}
+
+/* Botón  */
+
+.btn {
+    background-color: #a491d2;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 50px;
+    margin: 10px;
+
+}
+
+.btn-div {
+    display: flex;
+    padding: 20px;
+}
+
+/* Contenedor */
+
+.container {
+    display: flex;
+     height: 100vh;
+}
+
+/* Sección Contactos */
+
+.me {
+    width: 40px;
+    height: auto;
+    margin-left: 5px;
+    
+}
+
+.icons {
+    margin-left: 65px;
+    color: #828485;
+}
+
+.menu {
+    margin-left: 10px;
+    margin-right: -20px;    
+}
+
+.contacts {
+    flex: 0 0 20%;
+    background-color: #FFF;
+}
+
+
+.contacts>div {
+    border-top: 1px solid #BEC1BB;
+    height: 9.4vh;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    justify-content: center;
+}
+
+div>img {
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 3%;
+}
+
+/* Sección Principal */
+
+.main {
+    flex: 0 0 80%;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main > img {
+    border-radius: 5%;
+}
+
+#logo {
+    height: 300px;
+}
